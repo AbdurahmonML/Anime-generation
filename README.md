@@ -18,8 +18,10 @@ The Variational Autoencoder (VAE) encodes images into a latent space and allows 
 **Results:**
 When I sample purely random vectors:
 ![image](https://github.com/user-attachments/assets/c850c3f0-37db-440e-b97c-dec94eb61d1d)
+
 When I sample random vectors using the training images' mean and standard deviation:
-![image](https://github.com/user-attachments/assets/e9eda414-1341-40fe-82b4-f15091984c2a)
+![image](https://github.com/user-attachments/assets/451cf30f-453e-43cb-a8a0-77dc8aa85a5a)
+
 
 
 

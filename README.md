@@ -25,7 +25,7 @@ When I sample random vectors using the training images' mean and standard deviat
 
 
 
-- **Demo**: [vae_demo.ipynb.ipynb](./VAE/vae_demo.ipynb)
+- **Demo**: [vae_demo.ipynb](./VAE/vae_demo.ipynb)
 
 ### Autoencoder:
 The Autoencoder captures the general structure of anime faces through reconstruction, focusing more on regenerating input images than creating new variations. It’s a simpler model and provides good baseline results.

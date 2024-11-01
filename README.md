@@ -16,6 +16,7 @@ Each model includes:
 The Variational Autoencoder (VAE) encodes images into a latent space and allows controlled generation by sampling. It produces diverse anime faces with smooth transitions across the latent space, although with less sharpness than other models.
 
 **Results:**
+
 When I sample purely random vectors:
 ![image](https://github.com/user-attachments/assets/c850c3f0-37db-440e-b97c-dec94eb61d1d)
 

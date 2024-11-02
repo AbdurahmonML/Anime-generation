@@ -5,7 +5,6 @@ from vae_model import VAE, vae_loss
 from dataset import CustomDataset
 
 def train_vae(data_dir, output_dir, latent_dim=64, batch_size=128, learning_rate=0.001, num_epochs=20):
-    print('sss')
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
     

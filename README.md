@@ -41,7 +41,7 @@ When I sample purely random vectors:
 ![image](https://github.com/user-attachments/assets/44c26af1-63ba-413b-ba34-75acbb91db93)
 
 
-- When I sample random vectors using the training images' mean and standard deviation: 
+When I sample random vectors using the training images' mean and standard deviation: 
 ![image](https://github.com/user-attachments/assets/e998dd49-e59f-4f6a-a8f1-81615682d82b)
 
 

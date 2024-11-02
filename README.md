@@ -1,4 +1,4 @@
-# **Anime Face Generation Project**
+# **Anime Face Generation**
 
 ## **Exploring and Comparing VAE, Autoencoder, GAN, and Diffusion Models**
 

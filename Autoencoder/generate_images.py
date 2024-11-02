@@ -1,3 +1,4 @@
+import torch
 def generate_images(model, num_samples, mean, std):
     random_vectors = torch.normal(mean=mean_embedding.expand(num_samples, -1, -1, -1), 
                                std=std_embedding.expand(num_samples, -1, -1, -1))*1.2

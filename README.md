@@ -18,7 +18,8 @@ The Variational Autoencoder (VAE) encodes images into a latent space and allows 
 **Results:**
 
 When I sample purely random vectors:
-![image](https://github.com/user-attachments/assets/22710f4e-cfdf-4aab-9700-d1861c5a4582)
+![image](https://github.com/user-attachments/assets/81a0db68-5fb8-4ad2-aa21-bcf85fd94f46)
+
 
 When I sample random vectors using the training images' mean and standard deviation:
 ![image](https://github.com/user-attachments/assets/451cf30f-453e-43cb-a8a0-77dc8aa85a5a)
@@ -33,7 +34,8 @@ The Autoencoder captures the general structure of anime faces through reconstruc
 
 **Results:**
 When I sample purely random vectors:
-- **Demo**: [Autoencoder demo.ipynb](./autoencoder/demo.ipynb)
+![image](https://github.com/user-attachments/assets/44c26af1-63ba-413b-ba34-75acbb91db93)
+
 
 - When I sample random vectors using the training images' mean and standard deviation: 
 ![image](https://github.com/user-attachments/assets/8d99b81b-70bc-4502-9cc2-637630ba1f61)

@@ -32,9 +32,12 @@ When I sample random vectors using the training images' mean and standard deviat
 The Autoencoder captures the general structure of anime faces through reconstruction, focusing more on regenerating input images than creating new variations. It’s a simpler model and provides good baseline results.
 
 **Results:**
-![Autoencoder Results](./results/autoencoder_sample.png)
-
+When I sample purely random vectors:
 - **Demo**: [Autoencoder demo.ipynb](./autoencoder/demo.ipynb)
+
+- When I sample random vectors using the training images' mean and standard deviation: 
+![image](https://github.com/user-attachments/assets/8d99b81b-70bc-4502-9cc2-637630ba1f61)
+
 
 ### GAN:
 The Generative Adversarial Network (GAN) uses adversarial training, where a generator and discriminator compete to produce more realistic faces. This results in sharper images, though GANs can be more challenging to train effectively.

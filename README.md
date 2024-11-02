@@ -44,7 +44,7 @@ When I sample purely random vectors:
 When I sample random vectors using the training images' mean and standard deviation: 
 ![image](https://github.com/user-attachments/assets/e998dd49-e59f-4f6a-a8f1-81615682d82b)
 
-
+- **Demo**: [autoencoder_demo.ipynb](./Autoencoder/autoencoder_demo.ipynb)
 
 ### GAN:
 The Generative Adversarial Network (GAN) uses adversarial training, where a generator and discriminator compete to produce more realistic faces. This results in sharper images, though GANs can be more challenging to train effectively.

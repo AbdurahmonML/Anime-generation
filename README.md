@@ -12,6 +12,18 @@ Each model includes:
 
 ## Project Overview
 
+### GAN:
+The Generative Adversarial Network (GAN) uses adversarial training, where a generator and discriminator compete to produce more realistic faces. This results in sharper images, though GANs can be more challenging to train effectively.
+
+**Results:**
+![image](https://github.com/user-attachments/assets/886e4eaa-9775-4c09-8213-139bed3846e4)
+![image](https://github.com/user-attachments/assets/ff26523e-3384-4aab-9250-8045ac18970a)
+
+
+- **Demo**: [GAN demo.ipynb](./gan/demo.ipynb)
+
+- **Trained notebook**: If you are not able to open GAN/GAN_training.ipynb, then open this file to see training, as I have code of all files in this [notebook](https://drive.google.com/file/d/19YW5mzsTPKO1i2SuNskB3mX-f6NmMpm8/view?usp=sharing)
+
 ### VAE:
 The Variational Autoencoder (VAE) encodes images into a latent space and allows controlled generation by sampling. It produces diverse anime faces with smooth transitions across the latent space, although with less sharpness than other models.
 
@@ -45,18 +57,6 @@ When I sample random vectors using the training images' mean and standard deviat
 ![image](https://github.com/user-attachments/assets/e998dd49-e59f-4f6a-a8f1-81615682d82b)
 
 - **Demo**: [autoencoder_demo.ipynb](./Autoencoder/autoencoder_demo.ipynb)
-
-### GAN:
-The Generative Adversarial Network (GAN) uses adversarial training, where a generator and discriminator compete to produce more realistic faces. This results in sharper images, though GANs can be more challenging to train effectively.
-
-**Results:**
-![image](https://github.com/user-attachments/assets/886e4eaa-9775-4c09-8213-139bed3846e4)
-![image](https://github.com/user-attachments/assets/ff26523e-3384-4aab-9250-8045ac18970a)
-
-
-- **Demo**: [GAN demo.ipynb](./gan/demo.ipynb)
-
-- **Trained notebook**: If you are not able to open GAN/GAN_training.ipynb, then open this file to see training, as I have code of all files in this [notebook](https://drive.google.com/file/d/19YW5mzsTPKO1i2SuNskB3mX-f6NmMpm8/view?usp=sharing) :
 
 ### Diffusion Model:
 The Diffusion Model gradually removes noise from random images to create high-quality, detailed anime faces. This method generates the most intricate and realistic samples but is resource-intensive.

@@ -50,6 +50,8 @@ When I sample random vectors using the training images' mean and standard deviat
 The Generative Adversarial Network (GAN) uses adversarial training, where a generator and discriminator compete to produce more realistic faces. This results in sharper images, though GANs can be more challenging to train effectively.
 
 **Results:**
+![image](https://github.com/user-attachments/assets/886e4eaa-9775-4c09-8213-139bed3846e4)
+![image](https://github.com/user-attachments/assets/5ccdf30e-4a77-4625-86b7-8fe426207927)
 
 
 - **Demo**: [GAN demo.ipynb](./gan/demo.ipynb)

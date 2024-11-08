@@ -51,7 +51,7 @@ The Generative Adversarial Network (GAN) uses adversarial training, where a gene
 
 **Results:**
 ![image](https://github.com/user-attachments/assets/886e4eaa-9775-4c09-8213-139bed3846e4)
-![image](https://github.com/user-attachments/assets/5ccdf30e-4a77-4625-86b7-8fe426207927)
+![image](https://github.com/user-attachments/assets/ff26523e-3384-4aab-9250-8045ac18970a)
 
 
 - **Demo**: [GAN demo.ipynb](./gan/demo.ipynb)

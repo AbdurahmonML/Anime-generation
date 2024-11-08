@@ -50,9 +50,11 @@ When I sample random vectors using the training images' mean and standard deviat
 The Generative Adversarial Network (GAN) uses adversarial training, where a generator and discriminator compete to produce more realistic faces. This results in sharper images, though GANs can be more challenging to train effectively.
 
 **Results:**
-![GAN Results](./results/gan_sample.png)
+
 
 - **Demo**: [GAN demo.ipynb](./gan/demo.ipynb)
+
+- **Trained notebook**: If you are not able to open GAN/GAN_training.ipynb, then open this file to see training, as I have code of all files in this [notebook](https://drive.google.com/file/d/19YW5mzsTPKO1i2SuNskB3mX-f6NmMpm8/view?usp=sharing) :
 
 ### Diffusion Model:
 The Diffusion Model gradually removes noise from random images to create high-quality, detailed anime faces. This method generates the most intricate and realistic samples but is resource-intensive.

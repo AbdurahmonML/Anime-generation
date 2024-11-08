@@ -15,7 +15,7 @@ Each model includes:
 ### GAN:
 The Generative Adversarial Network (GAN) uses adversarial training, where a generator and discriminator compete to produce more realistic faces. This results in sharper images, though GANs can be more challenging to train effectively.
 
-**Results:**
+**Results of generating:**
 ![image](https://github.com/user-attachments/assets/886e4eaa-9775-4c09-8213-139bed3846e4)
 ![image](https://github.com/user-attachments/assets/ff26523e-3384-4aab-9250-8045ac18970a)
 
@@ -27,7 +27,7 @@ The Generative Adversarial Network (GAN) uses adversarial training, where a gene
 ### VAE:
 The Variational Autoencoder (VAE) encodes images into a latent space and allows controlled generation by sampling. It produces diverse anime faces with smooth transitions across the latent space, although with less sharpness than other models.
 
-**Results:**
+**Results of generating:**
 
 When I sample purely random vectors:
 ![image](https://github.com/user-attachments/assets/f91527a8-b9b8-42ab-befc-c6477b014030)
@@ -48,7 +48,7 @@ When I sample random vectors using the training images' mean and standard deviat
 ### Autoencoder:
 The Autoencoder captures the general structure of anime faces through reconstruction, focusing more on regenerating input images than creating new variations. It’s a simpler model and provides good baseline results.
 
-**Results:**
+**Results of generating:**
 When I sample purely random vectors:
 ![image](https://github.com/user-attachments/assets/44c26af1-63ba-413b-ba34-75acbb91db93)
 
@@ -61,7 +61,7 @@ When I sample random vectors using the training images' mean and standard deviat
 ### Diffusion Model:
 The Diffusion Model gradually removes noise from random images to create high-quality, detailed anime faces. This method generates the most intricate and realistic samples but is resource-intensive.
 
-**Results:**
+**Results of generating:**
 ![Diffusion Model Results](./results/diffusion_sample.png)
 
 - **Demo**: [Diffusion Model demo.ipynb](./diffusion/demo.ipynb)

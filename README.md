@@ -20,7 +20,7 @@ The Generative Adversarial Network (GAN) uses adversarial training, where a gene
 ![image](https://github.com/user-attachments/assets/ff26523e-3384-4aab-9250-8045ac18970a)
 
 
-- **Demo**: [GAN demo.ipynb](./gan/demo.ipynb)
+- **Demo**: [GAN demo.ipynb](./GAN/GAN_demo.ipynb)
 
 - **Trained notebook**: If you are not able to open GAN/GAN_training.ipynb, then open this file to see training, as I have code of all files in this [notebook](https://drive.google.com/file/d/19YW5mzsTPKO1i2SuNskB3mX-f6NmMpm8/view?usp=sharing)
 

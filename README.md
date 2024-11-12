@@ -85,6 +85,6 @@ After experimenting with different models for anime face generation, the results
 
 3. **VAE (Variational Autoencoder)**: The VAE generates a good variety of faces and exhibits smooth transitions across the latent space, making it a strong contender for controlled generation. However, the output images tend to lack the sharpness seen in GANs or Diffusion Models.
 
-4. **Autoencoder**: The Autoencoder, while producing reasonable results, is more focused on reconstructing input images rather than generating new variations. As a result, it ranks last, offering good baseline performance but lacking the diversity and realism of the other models.
+4. **Autoencoder**: The Autoencoder, while producing reasonable results, is more focused on reconstructing input images rather than generating new variations. As a result, it ranks last, offering good baseline performance but lacking the diversity and realism of the other models. Also, using Autoencoder we cannot sample fully random vector and generate image, because it will give bad result, but VAE works better here.
 
-In summary, if you're aiming for high-quality, realistic anime face generation, **GAN** is the best choice. If you prioritize diversity and feature capture, **Diffusion Models** provide an interesting alternative, while **VAE** and **Autoencoder** serve as good starting points for simpler tasks.
+I trained the diffusion model for 35 epochs, and while additional training might slightly improve the results, it is unlikely to surpass the performance of the GAN model in terms of quality.

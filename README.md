@@ -34,6 +34,8 @@ After experimenting with a non-attention-based diffusion model and getting subop
 
 - **Demo**:
 - [Diffusion Model demo.ipynb](./Diffusion/diff_demo.ipynb)
+- **Trained notebook**: [notebook](https://drive.google.com/file/d/1oRt-ekHGpjgfTH_wz8ANhCf3e-L4MF4L/view?usp=sharing)
+- **Weights after 35-th epoch**: [Weights](https://drive.google.com/file/d/1fQoEAaiVJeBYbmZorFwp6sJOSeIHx6ze/view?usp=drive_link)
   
 ### VAE:
 The Variational Autoencoder (VAE) encodes images into a latent space and allows controlled generation by sampling. It produces diverse anime faces with smooth transitions across the latent space, although with less sharpness than other models.

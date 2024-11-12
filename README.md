@@ -71,18 +71,8 @@ When I sample random vectors using the training images' mean and standard deviat
 - **Demo**: [autoencoder_demo.ipynb](./Autoencoder/autoencoder_demo.ipynb)
 
 
+### How to Run?
 
----
+You can easily reproduce the results by running the provided notebooks for each model. Each notebook contains clear instructions to guide you through the process. Simply follow the steps in the notebooks to experiment with the models and generate anime faces.
 
-## Getting Started
 
-### Prerequisites
-- **Python 3.7+**
-- Libraries:
-  - `torch` (PyTorch)
-  - `torchvision`
-  - `numpy`
-  - `matplotlib`
-  - `tqdm`
-  - `PIL` (Python Imaging Library)
-  - `IPython` (for notebook display)

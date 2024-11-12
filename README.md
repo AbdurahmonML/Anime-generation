@@ -32,8 +32,7 @@ After experimenting with a non-attention-based diffusion model and getting subop
 ![image](https://github.com/user-attachments/assets/d54a6a6f-3c29-4092-b3d7-efe87fafaa69)
 
 
-- **Demo**:
-- [Diffusion Model demo.ipynb](./Diffusion/diff_demo.ipynb)
+- **Demo**: [Diffusion Model demo.ipynb](./Diffusion/diff_demo.ipynb)
 - **Trained notebook**: [notebook](https://drive.google.com/file/d/1oRt-ekHGpjgfTH_wz8ANhCf3e-L4MF4L/view?usp=sharing)
 - **Weights after 35-th epoch**: [Weights](https://drive.google.com/file/d/1fQoEAaiVJeBYbmZorFwp6sJOSeIHx6ze/view?usp=drive_link)
   

@@ -78,8 +78,11 @@ When I sample random vectors using the training images' mean and standard deviat
 
 ### Prerequisites
 - **Python 3.7+**
-- Libraries: `torch`, `torchvision`, `numpy`, `matplotlib`, `tqdm` (and any additional requirements listed in `requirements.txt`)
-
-Install dependencies:
-```bash
-pip install -r requirements.txt
+- Libraries:
+  - `torch` (PyTorch)
+  - `torchvision`
+  - `numpy`
+  - `matplotlib`
+  - `tqdm`
+  - `PIL` (Python Imaging Library)
+  - `IPython` (for notebook display)

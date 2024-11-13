@@ -19,7 +19,8 @@ The Generative Adversarial Network (GAN) uses adversarial training, where a gene
 ![image](https://github.com/user-attachments/assets/886e4eaa-9775-4c09-8213-139bed3846e4)
 ![image](https://github.com/user-attachments/assets/ff26523e-3384-4aab-9250-8045ac18970a)
 
-
+- **Advantages**: Relatively fast to train and generate new images; High quality images can be generated;
+- **Disadvantages**: Difficult to configure due to sensitivity to hyperparameters; Prone to instability.
 - **Demo**: [GAN demo.ipynb](./GAN/GAN_demo.ipynb)
 
 - **Trained notebook**: If you are not able to open GAN/GAN_training.ipynb, then open this file to see training, as I have code of all files in this [notebook](https://drive.google.com/file/d/19YW5mzsTPKO1i2SuNskB3mX-f6NmMpm8/view?usp=sharing)
@@ -31,16 +32,17 @@ After experimenting with a non-attention-based diffusion model and getting subop
 **Results of generating:**
 ![image](https://github.com/user-attachments/assets/d54a6a6f-3c29-4092-b3d7-efe87fafaa69)
 
-
+- **Advantages**: High quality, Stability
+- **Disadvantages**: Very slow to train and generate new images.
 - **Demo**: [Diffusion Model demo.ipynb](./Diffusion/diff_demo.ipynb)
 - **Trained notebook**: [notebook](https://drive.google.com/file/d/1oRt-ekHGpjgfTH_wz8ANhCf3e-L4MF4L/view?usp=sharing)
 - **Weights after 35-th epoch**: [Weights](https://drive.google.com/file/d/1fQoEAaiVJeBYbmZorFwp6sJOSeIHx6ze/view?usp=drive_link)
   
 ### VAE:
 The Variational Autoencoder (VAE) encodes images into a latent space and allows controlled generation by sampling. It produces diverse anime faces with smooth transitions across the latent space, although with less sharpness than other models.
-
+- **Advantages**: Stable and reliable training; Efficient latent space representation (we can at least generate images from random noise)
+- **Disadvantages**: Lower image quality
 **Results of generating:**
-
 When I sample purely random vectors:
 ![image](https://github.com/user-attachments/assets/f91527a8-b9b8-42ab-befc-c6477b014030)
 
@@ -59,7 +61,8 @@ When I sample random vectors using the training images' mean and standard deviat
 
 ### Autoencoder:
 The Autoencoder captures the general structure of anime faces through reconstruction, focusing more on regenerating input images than creating new variations. It’s a simpler model and provides good baseline results.
-
+- **Advantages**: Stable and easy to train
+- **Disadvantages**: Lower image quality; Limited generative capability (we get Very bad result if we generate image from random noise)
 **Results of generating:**
 When I sample purely random vectors:
 ![image](https://github.com/user-attachments/assets/44c26af1-63ba-413b-ba34-75acbb91db93)

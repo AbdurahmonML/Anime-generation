@@ -42,6 +42,7 @@ After experimenting with a non-attention-based diffusion model and getting subop
 The Variational Autoencoder (VAE) encodes images into a latent space and allows controlled generation by sampling. It produces diverse anime faces with smooth transitions across the latent space, although with less sharpness than other models.
 - **Advantages**: Stable and reliable training; Efficient latent space representation (we can at least generate images from random noise)
 - **Disadvantages**: Lower image quality
+  
 **Results of generating:**
 When I sample purely random vectors:
 ![image](https://github.com/user-attachments/assets/f91527a8-b9b8-42ab-befc-c6477b014030)
@@ -63,6 +64,7 @@ When I sample random vectors using the training images' mean and standard deviat
 The Autoencoder captures the general structure of anime faces through reconstruction, focusing more on regenerating input images than creating new variations. It’s a simpler model and provides good baseline results.
 - **Advantages**: Stable and easy to train
 - **Disadvantages**: Lower image quality; Limited generative capability (we get Very bad result if we generate image from random noise)
+  
 **Results of generating:**
 When I sample purely random vectors:
 ![image](https://github.com/user-attachments/assets/44c26af1-63ba-413b-ba34-75acbb91db93)

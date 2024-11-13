@@ -44,6 +44,7 @@ The Variational Autoencoder (VAE) encodes images into a latent space and allows 
 - **Disadvantages**: Lower image quality
   
 **Results of generating:**
+
 When I sample purely random vectors:
 ![image](https://github.com/user-attachments/assets/f91527a8-b9b8-42ab-befc-c6477b014030)
 
@@ -66,6 +67,7 @@ The Autoencoder captures the general structure of anime faces through reconstruc
 - **Disadvantages**: Lower image quality; Limited generative capability (we get Very bad result if we generate image from random noise)
   
 **Results of generating:**
+
 When I sample purely random vectors:
 ![image](https://github.com/user-attachments/assets/44c26af1-63ba-413b-ba34-75acbb91db93)
 

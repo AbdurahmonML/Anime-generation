@@ -77,7 +77,8 @@ When I sample random vectors using the training images' mean and standard deviat
 
 - **Demo**: [autoencoder_demo.ipynb](./Autoencoder/autoencoder_demo.ipynb)
 
-### Dataset: https://www.kaggle.com/datasets/splcher/animefacedataset/data
+### Dataset: 
+https://www.kaggle.com/datasets/splcher/animefacedataset/data
 
 
 ### How to Run?
